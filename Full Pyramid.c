@@ -16,7 +16,7 @@ output for n = 5
 
 int main()
 {
-  int n;
+  int n;                                // n is the variable for number of rows.
   printf("enter number of rows : ");
   scanf("%d",&n);
   
@@ -25,7 +25,7 @@ int main()
       printf(" ");
     }
     for ( int j = 1 ; j <= i ; j++){
-      printf("* ");
+      printf("* ");                     //this will print "* " in required position
     }
     printf("\n");
   }
