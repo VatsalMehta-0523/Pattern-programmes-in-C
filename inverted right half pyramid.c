@@ -16,7 +16,7 @@ output pattern for n = 5
 
 int main()
 {
-  int n;
+  int n;                                     // n is the varaiable to store number of rows
   printf("enter number of rows : ");
   scanf("%d",&n);
   
