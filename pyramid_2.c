@@ -25,7 +25,7 @@ int main()
       printf(" ");
     }
     for ( int j = 1 ; j <= i ; j++){
-      printf("%d ", i%2);
+      printf("%d ", i%2);                               // here i%2 will print 0 and 1 for odd and even value of i respectively
     }
     printf("\n");
   }
